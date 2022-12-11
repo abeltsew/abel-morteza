@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
+    <script src="js/index.js"></script>
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+    <header id="header">
+      <img
+        id="header-img"
+        src=" https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200"
+      />
+      <nav id="nav-bar">
+        <ul class="links">
+          <li><a class="nav-link" href="#test1">test1</a></li>
+          <li><a class="nav-link" href="#test2">test2</a></li>
+          <li><a class="nav-link" href="#test3">test3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="test1">this is test 1</section>
+    <section id="test2">this is test 2</section>
+    <section id="test3">this is test 3</section>
+    <iframe
+      id="video"
+      width="694"
+      height="390"
+      src="https://www.youtube.com/embed/1SaqSIvon_U"
+      title="The Audi Car of the Future - Audi Skysphere"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        id="email"
+        type="email"
+        placeholder="Please enter your email address"
+        name="email"
+      />
+      <input id="submit" type="submit" />
+    </form>
   </body>
 </html>
