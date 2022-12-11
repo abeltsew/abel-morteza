@@ -20,7 +20,14 @@ section {
   height: 1080px;
 }
 
-@media (max-width: 580px) {
+@media screen and (max-width: 580px) {
+  #header-img{
+    visibility: hidden;
+  }
+  #header {
+  display: flex;
+  flex-direction: row;
+}
   .links {
     display: flex;
     flex-direction: column;
